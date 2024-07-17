@@ -24,7 +24,7 @@ public class Bot extends TelegramLongPollingBot {
     private Mode mode = Mode.waitingCommand;
     Task newTask = new Task();
     int everydayNotificationHour = 20;
-    int everydayNotificationMinute = 30;
+    int everydayNotificationMinute = 31;
 
     @Override
     public String getBotUsername() {
